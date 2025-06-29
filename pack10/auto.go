@@ -16,11 +16,11 @@ type Car struct {
 
 func main() {
 	car := Car{
-		Brand: "BMW",
-		Model: "M3",
-		Year:  2019,
+		Brand: "Infinity",
+		Model: "EX35",
+		Year:  2015,
 		Engine: Engine{
-			Power: 350,
+			Power: 450,
 			Type:  "Бензин",
 		},
 	}

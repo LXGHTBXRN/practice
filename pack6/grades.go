@@ -18,9 +18,9 @@ func removeGrade(grades map[string]int, name string) {
 func main() {
 	grades := make(map[string]int)
 
-	addGrade(grades, "Ivan", 4)
-	addGrade(grades, "Vlad", 3)
-	addGrade(grades, "Alex", 5)
+	addGrade(grades, "Ilya", 4)
+	addGrade(grades, "Andrey", 3)
+	addGrade(grades, "Vlad", 5)
 
 	fmt.Println("Оценки студентов: ", grades)
 

@@ -29,9 +29,9 @@ func (s Student) Status() string {
 
 func main() {
 	student := Student{
-		Name:      "Алексей",
-		BirthYear: 2002,
-		AvgGrade:  4.7,
+		Name:      "Андрей",
+		BirthYear: 2004,
+		AvgGrade:  4.4,
 	}
 
 	fmt.Printf("Студент: %s\n", student.Name)

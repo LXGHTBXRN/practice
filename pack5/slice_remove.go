@@ -10,7 +10,7 @@ func removeIndex(s []string, index int) []string {
 }
 
 func main() {
-	cars := []string{"BMW", "Mercedes", "McLaren"}
+	cars := []string{"Peugeot", "Mercedes", "Subaru"}
 	fmt.Println("Исходный срез:", cars)
 
 	cars = removeIndex(cars, 1)

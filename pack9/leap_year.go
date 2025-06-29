@@ -10,8 +10,8 @@ func main() {
 	isLeap := (year%4 == 0 && year%100 != 0) || (year%400 == 0)
 
 	if isLeap {
-		fmt.Printf("Год %d является весокосным\n", year)
+		fmt.Printf("Год %d является високосным\n", year)
 	} else {
-		fmt.Printf("Год %d не является весокосным\n", year)
+		fmt.Printf("Год %d не является високосным\n", year)
 	}
 }
