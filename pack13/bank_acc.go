@@ -37,8 +37,8 @@ func (acc BankAccount) CheckBalance() float64 {
 
 func main() {
 	account := BankAccount{
-		Owner:   "Иван Иванов",
-		Balance: 1000,
+		Owner:   "Алексей Свирепов",
+		Balance: 3000,
 	}
 
 	fmt.Printf("Владелец: %s\n", account.Owner)
@@ -47,12 +47,12 @@ func main() {
 	account.Deposit(500)
 	fmt.Printf("Баланс после пополнения: %.2f\n", account.CheckBalance())
 
-	err := account.Withdraw(2000)
+	err := account.Withdraw(50000)
 	if err != nil {
 		fmt.Println("Ошибка при снятии:", err)
 	}
 
-	err = account.Withdraw(300)
+	err = account.Withdraw(3000)
 	if err != nil {
 		fmt.Println("Ошибка при снятии:", err)
 	}

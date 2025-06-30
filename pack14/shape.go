@@ -27,9 +27,9 @@ func (c Circle) Area() float64 {
 func main() {
 	var s Shape
 
-	s = Rectangle{Width: 10, Height: 5}
+	s = Rectangle{Width: 30, Height: 15}
 	fmt.Printf("Площадь прямоугольника: %.2f\n", s.Area())
 
-	s = Circle{Radius: 5}
+	s = Circle{Radius: 10}
 	fmt.Printf("Площадь круга: %.2f\n", s.Area())
 }

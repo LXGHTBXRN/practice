@@ -34,11 +34,11 @@ func (b Bicycle) Stop() {
 func main() {
 	var t Transport
 
-	t = Car{Brand: "Toyota"}
+	t = Car{Brand: "Land Rover"}
 	t.Move()
 	t.Stop()
 
-	t = Bicycle{Brand: "Schwinn"}
+	t = Bicycle{Brand: "cycle"}
 	t.Move()
 	t.Stop()
 }

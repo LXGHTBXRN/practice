@@ -8,8 +8,8 @@ import (
 func main() {
 	str := "Hello World"
 
-	lenght := len([]rune(str))
-	fmt.Println("Количество символов:", lenght)
+	length := len([]rune(str))
+	fmt.Println("Количество символов:", length)
 
 	substr := "Go"
 	contains := strings.Contains(str, substr)
